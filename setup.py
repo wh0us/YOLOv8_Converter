@@ -7,7 +7,7 @@ setup(
     author="wh0us",
     python_requires=">=3.9",
     description="Small script for converting/training a YOLOv8 model on a dataset labeled in Label Studio",
-    url="https://github.com/kotttee/pyrogram_patch/",
+    url="https://github.com/wh0us/YOLOv8_Converter/",
     install_requires=["loguru>=0.7.2", "PyYAML>=6.0.1"],
     classifiers=[
         "License :: MIT License",
