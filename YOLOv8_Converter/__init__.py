@@ -1,1 +1,1 @@
-from .converter import convert_dataset, conf_logger, update_dataset_pathes
+from .YOLOv8_Converter import YOLODataset
