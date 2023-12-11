@@ -149,7 +149,7 @@ class YOLODataset:
         except Exception as e:
             return e
 
-        return out_path / 'data.yaml'
+        return (out_path / 'data.yaml').absolute() if absolute_path else out_path / 'data.yaml'
 
     def prepare(self, processor=None, split_100=False):
         """
