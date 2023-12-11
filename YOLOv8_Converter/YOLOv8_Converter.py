@@ -17,7 +17,7 @@ class YOLODataset:
         self._init_folders()
 
     def _init_folders(self):
-        self._datasets_path = pathlib.Path('../datasets')
+        self._datasets_path = pathlib.Path('datasets')
         self._cache_path = self._datasets_path / 'cache'
         self._temp_path = self._datasets_path / 'temp'
 
